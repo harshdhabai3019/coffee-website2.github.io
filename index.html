@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <title>Coffee-Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">COFFEE-SHOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Coffee
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="products.html">Instant Coffee</a></li>
+                      <li><a class="dropdown-item" href="products.html">Ground Coffee</a></li>
+                      <li><a class="dropdown-item" href="products.html">South Indian Filter Coffee</a></li>
+                      <li><a class="dropdown-item" href="products.html">Decaf</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Coffee Beans
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="products.html">Arabica</a></li>
+                      <li><a class="dropdown-item" href="products.html">Robusta</a></li>
+                      <li><a class="dropdown-item" href="products.html">Green coffee Beans</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Coffee Gear
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="products.html">Coffee Bean Grinders</a></li>
+                      <li><a class="dropdown-item" href="products.html">Coffee Filters</a></li>
+                      <li><a class="dropdown-item" href="products.html">Brewing Accessories</a></li>
+                      <li><a class="dropdown-item" href="products.html">Mugs</a></li>
+                      <li><a class="dropdown-item" href="products.html">Gifting</a></li>
+                      <li><a class="dropdown-item" href="products.html">Barista Tool Kits</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.index.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <!--bg-image-container-->
+      <div class="text-center container-my1">
+        <img src="img/coffe-cartoonimg1.webp" alt="coffeebg1" class="bgimage1">
+        <div class="container-rel">
+            <h2 class="text-light my-txtshadow">ENJOY GREAT COFFEE <br> FROM HOME</h2><br>
+            <a href="menu.index.html" class="">
+                <button class="btn-more">Our Coffee Menu</button>
+            </a>
+        </div>
+      </div>
+
+      <!--3rd-item-->
+      <div class="container-fluid text-center py-5 bgdark">
+        <div class="row">
+          <div class="col">
+            <i class="icofont-fast-delivery imgclr-1"></i>
+            <h4 class="deliverycontent">FREE DELIVERY</h4>
+            <p class="text-white pt-2">on orders over £40</p>
+          </div>
+          <div class="col">
+            <i class="icofont-paypal imgclr-1"></i>
+            <h4 class="deliverycontent">PAYPAL UPI</h4>
+            <p class="text-white pt-2">with full trust</p>
+          </div>
+          <div class="col">
+            <i class="icofont-apple-pay imgclr-1"></i>
+            <h4 class="deliverycontent">G-PAY PAYMENT</h4>
+            <p class="text-white pt-2">with full trust</p>
+          </div>
+        </div>
+      </div><br>
+      <!--menu images-->
+      <div class="text-center pt-10">
+        <h2 class="text-left p-3">One of the simplest methods to make great coffee is using one of our manual coffee makers.</h2><hr>
+      </div>
+      <div class="text-center py-5 pt-5">
+        <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"         data-bs-target="#staticBackdrop">
+            Coming Soon! ESPRESSO
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">ESPRESSO (best &t asty)</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-dialog modal-xl bg-danger text-white p-2">
+                  COMING SOON!
+                </div>
+                <div class="modal-footer">
+                  <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                  <button type="button" class="btn btn-outline-dark">Understood</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      <div class="text-center container-my1">
+        <img src="img/coffee-house2.jpg" alt="coffeebg1" class="bgimage1">
+        <div class="container-rel">
+            <h2 class="text-light my-txtshadow">ENJOY GREAT COFFEE <br> FROM HOME</h2><br>
+            <a href="menu.index.html" class="">
+                <button class="btn-more">Our Coffee Menu</button>
+            </a>
+        </div>
+      </div>
+      <!--about-us-->
+      <!-- <div class="section1">
+        <div class="text1">
+          <h1 class="heading1">heading1</h1>
+          <p class="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident corporis officia laboriosam quibusdam asperiores magni alias minus! Enim adipisci vel quaerat ratione incidunt? Neque itaque veritatis aspernatur voluptate provident? Sunt.</p>
+        </div>
+        <img src="img/over2.jpeg" alt="over2" class="over2-image">
+      </div> -->
+
+
+      <div class="container text-center pt-5">
+        <div class="row">
+          <div class="col">
+            <img src="img/manual-grinder2.jpg" alt="over2" class="over2-image image-fluid">
+          </div>
+          <div class="col">
+            <div class="text1 pt-5">
+              <h1 class="heading1">Manual</h1>
+              <p class="content1 pt-2 text-left">Lorem ipsum dolor sit amet,consectetur adipisicing elit.ipsum dolor sit amet,consectetur adipisicingLorem ipsum dolor</p>
+              <a href="cart.index.html"><button class="btn btn-outline-dark">Add to cart <i class="bi bi-cart"></i></button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="text-center pt-10">GALLERY</h1><br><br>
+
+      <div class="album py-2 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm Zoomrelative">
+                <img src="img/arabica1.avif" width="100%" height="225" alt="arabica1" class="bd-placeholder-img card-img-top zoomE">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary">Browse</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm Zoomrelative">
+                <img src="img/ground-coffee1.avif" width="100%" height="225" alt="ground coffee" class="bd-placeholder-img card-img-top zoomE">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary">Browse</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm Zoomrelative">
+                <img src="img/instant-coffee.webp" width="100%" height="225" alt="instant" class="bd-placeholder-img card-img-top zoomE">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary">Browse</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm Zoomrelative">
+                <img src="img/electric-grinder2.webp" width="100%" height="225" alt="electric" class="bd-placeholder-img card-img-top zoomE">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary">SHOP NOW</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm Zoomrelative">
+                <img src="img/french-press2.jpg" width="100%" height="225" alt="french-press1" class="bd-placeholder-img card-img-top p-4 zoomE">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary">SHOP NOW</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm Zoomrelative">
+                <img src="img/coffee-machine2.webp" width="100%" height="225" alt="coffe-machine" class="bd-placeholder-img card-img-top p-4 zoomE">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary">SHOP NOW</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/arabica1.avif" width="100%" height="225" alt="" class="bd-placeholder-img card-img-top">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/arabica1.avif" width="100%" height="225" alt="" class="bd-placeholder-img card-img-top">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/arabica1.avif" width="100%" height="225" alt="" class="bd-placeholder-img card-img-top">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div><br>
+      <div class="text-center pt-2">
+        <a href="products.html" class="more-items"><button>see more products..</button></a>
+      </div><br>
+
+      <div class="container pt-10">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Barista Tool Kits<span class="text-danger fs-5">coming soon</span></h2>
+            <p class="lead">Brew like a Pro </p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/barista1.webp" height="90%"width="100%" alt="barista1">
+          </div>
+        </div>
+      </div><br><br>
+
+<!--footer-->
+  <div class="container mw-100 text-center bg-g text-light">
+    <footer class="py-5">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+        </div>
+        <div class="col-md-auto">
+          <form>
+            <h5>Get in touch with us</h5>
+            <p>updating you with new Products</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-outline-light" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div class="col col-lg-2">
+        </div>
+      </div>
+      <div class="container pt-5">
+        <P CLASS="text-center sizingg">
+          <a href="#" class="linkfooter"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkfooter"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="linkfooter"><i class="bi bi-twitter"></i></a>
+        </P>
+      </div><br>
+  
+
+      <div class="row font-16">
+        <div class="col">
+          <h6>INFORMATION</h6>
+          <ul class="nav flex-column hoverclass">
+            <li class="nav-item mb-2"><a href="about.index.html" class="nav-link p-0 text-light">About Us</a></li>
+            <li class="nav-item mb-2"><a href="contact.index.html" class="nav-link p-0 text-light">Contact</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Returns</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Terms of Service</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Customer Service</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>MY ACCOUNT</h6>
+          <ul class="nav flex-column hoverclass">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">My Account</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Order History</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Help</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQ's</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Refund policy</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>ADDRESS</h6>
+          <ul class="nav flex-column hoverclass">
+            <li class="nav-item mb-2">Office 4.5 First Floor 4 <br>Sandpit Road,Dartford DA1 5BU</li>
+            <li class="nav-item mb-2">+44 207635 6247</li>
+            <li class="nav-item mb-2">Dartford DA1 5BU</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
